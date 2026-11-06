@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --elite-red: #0044ff;
+  --fire-orange: #00aaff;
+  --cyber-gold: #ffcc00;
+  --neon-cyan: #00ffff;
+  --obsidian-dark: #020002;
+  --win-neon: #00ff88;
+  --loss-neon: #ff1155;
+  --font-h: 'Orbitron', sans-serif;
+  --font-b: 'Rajdhani', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0f19;
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.font-cyber-h {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.font-cyber-b {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+@keyframes spinAura {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes cyberFlapLeft {
+  0% { transform: scaleX(-1) rotate(0deg) translateY(0) scale(1); }
+  100% { transform: scaleX(-1) rotate(-10deg) translateY(-2px) scale(1.08); filter: drop-shadow(0 0 14px var(--cyber-gold)) drop-shadow(0 0 6px #fff); }
+}
+
+@keyframes cyberFlapRight {
+  0% { transform: rotate(0deg) translateY(0) scale(1); }
+  100% { transform: rotate(10deg) translateY(-2px) scale(1.08); filter: drop-shadow(0 0 14px var(--cyber-gold)) drop-shadow(0 0 6px #fff); }
+}
+
+@keyframes knifeSlice {
+  0% { transform: translateY(-100%) rotate(45deg); }
+  100% { transform: translateY(100%) rotate(45deg); }
+}
+
+@keyframes jitBall {
+  0% { transform: translateY(-2px) scale(0.93) rotate(-3deg); }
+  100% { transform: translateY(2px) scale(1.07) rotate(3deg); }
+}
+
+@keyframes popInBall {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+@keyframes pulseTimer {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+
+@keyframes flashAnim {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-spin-aura {
+  animation: spinAura 1.8s linear infinite;
+}
+
+.animate-knife-slice {
+  animation: knifeSlice 1.8s linear infinite;
+}
+
+.animate-wing-left {
+  animation: cyberFlapLeft 1.5s ease-in-out infinite alternate;
+}
+
+.animate-wing-right {
+  animation: cyberFlapRight 1.5s ease-in-out infinite alternate 0.2s;
+}
+
+.animate-jitter {
+  animation: jitBall 0.05s linear infinite;
+}
+
+.animate-pulse-urgent {
+  animation: pulseTimer 0.5s infinite;
+}
+
+.cut-corner {
+  clip-path: polygon(12% 0%, 88% 0%, 100% 12%, 100% 88%, 88% 100%, 12% 100%, 0% 88%, 0% 12%);
+}

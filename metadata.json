@@ -1,0 +1,8 @@
+{
+  "name": "ADVANCE HACK Pro",
+  "description": "ADVANCE HACK (𝘼𝘿𝙑𝘼𝙉𝘾𝙀 𝙃𝘼𝘾𝙆) WinGo 30S prediction overlay with real-time analytics, PIN security, and authentic DKWIN gaming interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
