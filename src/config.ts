@@ -9,6 +9,6 @@ export const APP_CONFIG = {
     url: "https://advance-admin.lovable.app",
     apiKey: "pgk_live_qMS4Y8HdnyYvayl0CNPgu63dabpdipWH",
   },
-  profileImage: "/profile.jpg",
+  profileImage: "./profile.jpg",
   remoteProfileImage: "https://cdn.phototourl.com/member/2026-10-06-8bd2c666-f684-4065-9545-e6ed40bd7661.jpg",
 };

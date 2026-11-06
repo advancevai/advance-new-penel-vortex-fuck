@@ -7,22 +7,22 @@ interface GlossyBallProps {
 }
 
 const LOCAL_BALL_IMAGES: Record<number, string> = {
-  2: '/assets/aistudio/ball-2-7d433738_7d433738.png',
-  5: '/assets/aistudio/ball-5-8e182f0c_8e182f0c.png',
-  8: '/assets/aistudio/ball-8-9d781b7c_9d781b7c.png',
+  2: './assets/aistudio/ball-2-7d433738_7d433738.png',
+  5: './assets/aistudio/ball-5-8e182f0c_8e182f0c.png',
+  8: './assets/aistudio/ball-8-9d781b7c_9d781b7c.png',
 };
 
 // Fallback high-res public CDN links from user's panel script
 const CDN_BALL_IMAGES: Record<number, string> = {
   0: 'https://i.postimg.cc/Wzrp0gRV/ball-0-053d2b99.png',
   1: 'https://i.postimg.cc/Qt7ZzDfk/ball-1-12ea01b7.png',
-  2: '/assets/aistudio/ball-2-7d433738_7d433738.png',
+  2: './assets/aistudio/ball-2-7d433738_7d433738.png',
   3: 'https://i.postimg.cc/7hyr8Rcv/ball-3-a91cceac.png',
   4: 'https://i.postimg.cc/WbTc5Qgg/ball-4-cad06388.png',
-  5: '/assets/aistudio/ball-5-8e182f0c_8e182f0c.png',
+  5: './assets/aistudio/ball-5-8e182f0c_8e182f0c.png',
   6: 'https://i.postimg.cc/c1QNMsgd/ball-6-44a39882.png',
   7: 'https://i.postimg.cc/2S5RDhH5/ball-7-c8babe29.png',
-  8: '/assets/aistudio/ball-8-9d781b7c_9d781b7c.png',
+  8: './assets/aistudio/ball-8-9d781b7c_9d781b7c.png',
   9: 'https://i.postimg.cc/cL5q4CjB/ball-9-19985870.png'
 };
 
