@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "npm install --include=dev --legacy-peer-deps",
   "outputDirectory": "dist",
   "nodeVersion": "20.18.0"
 }
